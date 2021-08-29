@@ -7,8 +7,8 @@ import { Injectable } from '@angular/core';
 export class WeatherService {
   apiKey = 'ec5d9934ec52dbba4d7ecab44706b0ca'
 
-  url = `http://api.openweathermap.org/data/2.5/weather`;
-  forecastUrl = `http://api.openweathermap.org/data/2.5/onecall`;
+  url = `https://api.openweathermap.org/data/2.5/weather`;
+  forecastUrl = `https://api.openweathermap.org/data/2.5/onecall`;
 
   constructor(private http: HttpClient) { }
 
