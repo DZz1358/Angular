@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="header">
+        <input class="header_input" type="text" (change)="onChange($event)" placeholder="Enter city name">
+    </div>
+
+    <div>
+        <app-page-body-top *ngIf="cityInfo && weather" [weather]="weather" [cityInfo]="cityInfo"></app-page-body-top>
+        <app-page-body-footer *ngIf="weather" [weather]="weather"></app-page-body-footer>
+    </div>
+
+</div>

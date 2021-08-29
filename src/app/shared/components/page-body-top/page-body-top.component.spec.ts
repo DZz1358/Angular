@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProductAlertsComponent } from './product-alerts.component';
+import { PageBodyTopComponent } from './page-body-top.component';
 
-describe('ProductAlertsComponent', () => {
-  let component: ProductAlertsComponent;
-  let fixture: ComponentFixture<ProductAlertsComponent>;
+describe('PageBodyTopComponent', () => {
+  let component: PageBodyTopComponent;
+  let fixture: ComponentFixture<PageBodyTopComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProductAlertsComponent ]
+      declarations: [ PageBodyTopComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ProductAlertsComponent);
+    fixture = TestBed.createComponent(PageBodyTopComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,15 @@
+.container {
+    max-width: 875px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.header_input {
+    width: 100%;
+}
